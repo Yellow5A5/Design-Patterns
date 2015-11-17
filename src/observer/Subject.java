@@ -1,7 +1,7 @@
 package observer;
 
 interface Subject {
-	public void registerObserver(Object obj);
-	public void removeObserver(Object obj);
-	public void notifyObservers();
+	public void registerObserver(Observer obs);
+	public void removeObserver(Observer obs);
+	public void notifyObservers(String str);
 }
